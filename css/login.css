@@ -1,0 +1,256 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #03002e;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: #f2f3f7;
+}
+
+/* logo */
+div.container-fluid img{
+    width: 5%;
+    margin-right: 2% ;
+    cursor: pointer;
+
+
+     
+}
+
+
+
+/* logo end */
+
+/* navbar starts */
+
+.navbar{
+    box-shadow: -2px  -2px 6px rgb(255, 255, 255),
+    2px 2px 6px rgb(209, 209, 209);
+}
+
+a.dropdown-item{
+    background:#f2f3f7;color:#1f2224;padding-top:0;transition:all .3s
+}
+
+div.dropdown-menu
+{
+    background:#f2f3f7;color:#1f2224}
+
+a.dropdown-item:hover
+{
+    box-shadow: inset -2px -2px 6px  rgb(255, 255, 255),
+    inset 2px 2px 6px rgb(209, 209, 209);
+    border-radius: 2px;     
+    color:#e6af2e;background:#f2f3f7}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    background: #f2f3f7;
+    border-radius: 8px;
+    box-shadow: inset -2px  -2px 6px rgb(255, 255, 255),
+    inset 2px 2px 6px rgb(209, 209, 209);
+}
+/* navbar ends */
+
+a.active{
+    border-radius: 5px;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgb(209, 209, 209);
+    margin-right: 2em;
+    color: #bb7307;
+
+
+}
+
+
+a.nav-link:hover{
+    border-radius: 5px;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgb(209, 209, 209);
+    margin-right: 2em;
+    width: auto;
+    color: #03002e;
+    
+    }
+
+    .navbar-toggler{
+        box-shadow: -2px  -2px 6px rgb(255, 255, 255),
+     2px 2px 6px rgb(209, 209, 209);
+
+    }
+
+    .dropdown-divider{height:0;margin:.5rem 0;overflow:hidden;border-top:1px solid #f2f3f7}
+
+
+
+    .np-btn:hover{
+        box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+        inset 2px 2px 3px rgb(209, 209, 209);
+        color: #03002e;
+        background-color: #f2f3f7;
+        font-size: 20px;
+        font-weight: bold;
+        
+      }
+    
+      .np-btn{
+          background-color: #f2f3f7;
+          box-shadow:  -2px  -2px 3px rgb(255, 255, 255),
+         2px 2px 3px rgb(209, 209, 209);
+        color: #03002e;
+        font-size: 25px;
+        font-weight: bold;
+        transition: 0.4s;
+    
+      }
+
+
+      a.btn:hover{
+
+    
+        box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+        inset 2px 2px 3px rgb(209, 209, 209);
+        color: #bb7307;
+       }
+
+
+       @media (max-width:990px){
+        #head-logo{
+            display: none;
+        }
+    
+    }
+
+/* nav bar ends */
+
+
+
+
+
+    h5{
+        font-weight: bold;
+        font-variant: uppercase;
+        
+    }
+    
+p{
+    font-size: 15px;
+        }
+
+        div.mohini img{
+            width: 55%;
+            margin: 0%;
+
+        }
+
+
+        /* form logo */
+        #form-logo{
+            width: 35%;
+        }
+
+
+   
+
+
+
+   
+
+   .container .text h1[class="tagline"]
+   {
+       color: #03002e;
+       font-weight: bold;
+   }
+
+   p{
+       text-align: justify;
+   }
+   
+   .container .text h3[class="tagline"]
+   {
+       color: #03002e;
+       font-weight: bold;
+   }
+
+      #head{
+       font-weight: bold;
+       font-size: 39px;
+       text-align: center;
+   }
+
+  #login-btn{
+      width: 80%;
+      
+  }
+  
+
+  input[type="text"]{
+      width: 100%;
+      box-shadow:  -2px  -2px 3px rgb(255, 255, 255),
+     2px 2px 3px rgb(209, 209, 209);
+     color: lightgray;
+  }
+
+  input[type="text"]:hover{
+    width: 100%;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgb(209, 209, 209);
+    color: lightgray;
+}
+
+label[class="form-label"]{
+    font-size: 25px;
+}
+
+.np-form-group{
+    box-shadow:  -8px  -8px 13px rgb(255, 255, 255),
+     2px 2px 13px rgb(209, 209, 209);
+     border-radius: 10px;
+     transition: 1s;
+}
+
+/* div.col .np-form-element{
+  
+} */
+
+
+
+
+
+
+h5{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+div.social-icon i[id="brand"]{
+color: grey;
+transition: 0.5s;
+}
+
+div.social-icon i[id="brand"]:hover{
+    color: #03002e;
+    transform: scale(1.29);
+    cursor: pointer;
+    }
+
+/* footer */
+    div.copy{
+        text-align: center;
+    }
+    
+    #f-icon{
+        color: grey;
+        transition: 0.3s linear;
+        
+    }
+
+    #f-icon:hover{
+        color: #03002e;
+    }
+    /* footer */

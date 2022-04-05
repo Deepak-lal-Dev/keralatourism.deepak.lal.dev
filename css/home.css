@@ -1,0 +1,280 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #03002e;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: #f2f3f7;
+}
+
+/* logo */
+div.container-fluid img{
+    width: 5%;
+    margin-right: 2% ;
+cursor: pointer;
+
+     
+}
+
+
+/* logo end */
+
+/* navbar starts */
+
+.navbar{
+    box-shadow: -2px  -2px 6px rgb(255, 255, 255),
+    2px 2px 6px rgb(209, 209, 209);
+}
+
+a.dropdown-item{
+    background:#f2f3f7;color:#1f2224;padding-top:0;transition:all .3s
+}
+
+div.dropdown-menu
+{
+    background:#f2f3f7;color:#1f2224}
+
+a.dropdown-item:hover
+{
+    box-shadow: inset -2px -2px 6px  rgb(255, 255, 255),
+    inset 2px 2px 6px rgb(209, 209, 209);
+    border-radius: 2px;     
+    color:#e6af2e;background:#f2f3f7;
+    }
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    background: #f2f3f7;
+    border-radius: 8px;
+    box-shadow: inset -2px  -2px 6px rgb(255, 255, 255),
+    inset 2px 2px 6px rgb(209, 209, 209);
+}
+/* navbar ends */
+
+/* head carousel */
+
+#carouselExampleControls{
+    box-shadow: 0px 5px 11px -4px rgba(0,0,0,0.75);
+}
+
+#carouselExampleControls img{
+    border-bottom:0.8% solid #f2f3f7;
+
+}
+/* head carousel */
+
+
+/* card section starts */
+#div2{
+    background: #f2f3f7;
+    }
+
+#divcard{
+background: #f2f3f7;
+}
+
+#divcard2{
+    background: #f2f3f7;
+    
+
+}
+
+#cardbody{
+    margin: 0;
+}
+
+#cardcontain{
+    box-shadow: -8px  -8px 12px rgb(255, 255, 255),
+     8px 8px 12px rgb(209, 209, 209);
+     background: #f2f3f7;
+     outline: none;
+     border-radius: 15px;
+     border: #f2f3f7;
+}
+
+#cardcontain img{
+    border-radius: 4% 4% 0% 0%;
+}
+/* card section end */
+
+
+a.active{
+    border-radius: 5px;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgb(209, 209, 209);
+    margin-right: 2em;
+    color: #bb7307;
+
+
+}
+
+
+a.nav-link:hover{
+    border-radius: 5px;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgb(209, 209, 209);
+    margin-right: 2em;
+    width: auto;
+    color: #03002e;
+    
+    }
+
+    button.navbar-toggler{
+        box-shadow: -2px  -2px 6px rgb(255, 255, 255),
+     2px 2px 6px rgb(209, 209, 209);
+
+    }
+
+    h5{
+        font-weight: bold;
+        font-variant: uppercase;
+        
+    }
+    
+p{
+    font-size: 15px;
+        }
+
+
+    .card-body{
+                margin: 0%;
+        color: #03002e;
+    }
+
+    
+
+   div .card-body .btn{
+    box-shadow: -2px  -2px 6px rgb(255, 255, 255),
+    2px 2px 6px rgb(209, 209, 209);
+    background: #f2f3f7;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: #03002e;
+
+
+   }
+
+   a.btn:hover{
+
+    
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgb(209, 209, 209);
+    color: #bb7307;
+   }
+
+   
+
+   #cardbody .btn{
+       margin-top: 25px;
+            
+           }
+
+   h1{
+       font-weight: bold;
+       letter-spacing: 2px;
+       color: grey;
+       
+        
+    }
+         
+
+    h1:hover{
+        animation: ease-in-out 5s;
+        color: #03002e;
+        transform: scale(1.5);
+        transition: 500ms ease-in-out;
+        text-shadow:  -2px  -2px 4px rgb(255, 255, 255),
+        2px 2px 4px rgb(82, 80, 80);
+        
+    }
+
+
+    
+    
+        
+    
+    div .row .col h3{
+        font-weight: bold;
+        font-size: 25px;
+        margin: 0;
+        
+    }
+
+    div .row .col:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+        cursor: pointer;
+        overflow: hidden;
+        transition: 500ms ease-in-out;
+               
+    }
+
+    div .row .col p{
+        font-size: 18px;
+        margin: 0;
+
+               
+    }
+
+    #o .img-thumbnail{
+        border-radius: 5%;
+        outline: none;
+        box-shadow:  -2px  -2px 10px rgb(255, 255, 255),
+                     5px 5px 12px rgb(209, 209, 209);
+        margin-bottom: 18px;
+    }
+
+    
+#mission h4{
+    font-weight: bold;
+    color: #03002e;
+    }
+
+    #mission h3{
+        font-weight: bold;
+        color: #03002e;
+        border-bottom: 1px solid #03002e;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        }
+
+        #mission p{
+            text-align: justify;
+            color: #03002e;
+            }
+
+           i{
+               
+               transition: 0.3s linear;
+               color: grey;
+            
+           }
+
+           i:hover{
+               color:  #03002e;
+           }
+
+           
+
+             
+
+        li{
+            display: inline;
+            text-align: left;
+         }
+
+
+        
+         @media (max-width:990px){
+            #head-logo{
+                display: none;
+            }
+        
+        }

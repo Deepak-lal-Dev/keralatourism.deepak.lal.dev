@@ -1,0 +1,718 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #03002e;
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    background: #f2f3f7;
+}
+
+/* logo */
+div.container-fluid img{
+    width: 5%;
+    margin-right: 2% ;
+    cursor: pointer;
+
+
+     
+}
+
+
+
+/* logo end */
+
+/* navbar starts */
+
+.navbar{
+    box-shadow: -2px  -2px 6px rgb(255, 255, 255),
+    2px 2px 6px rgb(209, 209, 209);
+}
+
+a.dropdown-item{
+    background:#f2f3f7;color:#1f2224;padding-top:0;transition:all .3s
+}
+
+div.dropdown-menu
+{
+    background:#f2f3f7;color:#1f2224}
+
+a.dropdown-item:hover
+{
+    box-shadow: inset -2px -2px 6px  rgb(255, 255, 255),
+    inset 2px 2px 6px rgb(209, 209, 209);
+    border-radius: 2px;     
+    color:#e6af2e;background:#f2f3f7}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    background: #f2f3f7;
+    border-radius: 8px;
+    box-shadow: inset -2px  -2px 6px rgb(255, 255, 255),
+    inset 2px 2px 6px rgb(209, 209, 209);
+}
+/* navbar ends */
+
+
+/* head carousel */
+
+#carouselExampleControls{
+    box-shadow: 0px 5px 11px -4px rgba(0,0,0,0.75);
+}
+
+#carouselExampleControls img{
+    border-bottom:0.8% solid #f2f3f7;
+
+}
+/* head carousel */
+
+/* main head */
+
+#main-head{
+    text-shadow:  -2px  -2px 4px rgb(255, 255, 255),
+     2px 2px 4px rgb(82, 80, 80); ;
+}
+
+/* main head */
+
+
+
+
+
+/* small nav */
+
+
+#small-nav a{
+    color: #bb7307;
+    text-decoration: none;
+
+}
+
+#small-nav-active a{
+    color: gray;
+    text-decoration: none;
+}
+
+
+/* small-nav */
+
+
+
+
+
+
+a.active{
+    border-radius: 5px;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgb(209, 209, 209);
+    margin-right: 2em;
+    color: #bb7307;
+
+
+}
+
+
+a.nav-link:hover{
+    border-radius: 5px;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgb(209, 209, 209);
+    margin-right: 2em;
+    width: auto;
+    color: #03002e;
+    
+    }
+
+    .navbar-toggler{
+        box-shadow: -2px  -2px 6px rgb(255, 255, 255),
+     2px 2px 6px rgb(209, 209, 209);
+
+    }
+
+    .dropdown-divider{height:0;margin:.5rem 0;overflow:hidden;border-top:1px solid #f2f3f7}
+
+
+
+    .np-btn:hover{
+        box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+        inset 2px 2px 3px rgb(209, 209, 209);
+        color: #03002e;
+        background-color: #f2f3f7;
+        font-size: 20px;
+        font-weight: bold;
+        
+      }
+    
+      .np-btn{
+          background-color: #f2f3f7;
+          box-shadow:  -2px  -2px 3px rgb(255, 255, 255),
+         2px 2px 3px rgb(209, 209, 209);
+        color: #03002e;
+        font-size: 25px;
+        font-weight: bold;
+        transition: 0.4s;
+    
+      }
+
+
+      a.btn:hover{
+
+    
+        box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+        inset 2px 2px 3px rgb(209, 209, 209);
+        color: #bb7307;
+       }
+
+
+       @media (max-width:990px){
+        #head-logo{
+            display: none;
+        }
+    
+    }
+
+/* nav bar ends */
+
+#place-card{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0%;
+   }
+
+
+
+    h5{
+        font-weight: bold;
+        font-variant: uppercase;
+    }
+ 
+/* state cards */
+
+/* div.col-lg-3{
+    margin: 2% 0%;
+} */
+
+div.card-state{
+    margin: 29px;
+    height: 400px;
+    width: 239px;
+    overflow: hidden;
+    border-radius: 4%;
+    box-shadow:  -2px  -2px 3px rgb(255, 255, 255),
+         2px 2px 3px rgb(92, 91, 91);
+}
+
+div.card-state img{
+    height:400px ;
+    width: 239px;
+    border-radius: 4%;
+}
+
+div.card-state h1{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+div.card-state h6{
+    visibility: hidden;
+    opacity:0;
+    font-size: 20px;
+    color: #f2f3f7;
+}
+
+div.intro{
+        height: 40px;
+    width: 239px;
+    position: absolute;
+    background: rgb(242,243,247,0.5);
+    bottom: 29px;
+    border-radius: 0% 0% 4% 4%;
+    transition: 0.5s ease-in-out;
+    border-radius: 0px 0px 13px 12px;
+}
+
+div.card-state:hover{
+    cursor: pointer;
+}
+
+div.card-state:hover .intro{
+    height: 120px;
+    background: #f2f3f7;
+    border-radius: 0% 0% 5% 5%;
+}
+
+div.card-state:hover h6{
+    opacity: 1;
+    visibility: visible;
+    color: #03002e;
+}
+
+div.card-state:hover a{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/* state cards */
+
+/* state card btn */
+
+div.card-state a{
+    cursor: pointer;
+    display: inline-block;
+    color: #03002e;
+    background-color: #e6af2e;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    border: none;
+        text-decoration: none;
+        outline: none;
+        box-shadow: inset 2px  2px 3px rgb(246, 248, 115),
+         inset -2px -2px 3px rgb(109, 102, 1);
+         visibility: hidden;
+         opacity:0;
+        }
+
+
+div.card-state a:hover{
+    background-color: #f2f3f7;
+    text-decoration: none;
+    color: #03002e;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+         inset 2px 2px 3px rgb(92, 91, 91);
+         transition: 0.3s ease-in-out;
+         border: none;
+         outline: none;
+   
+}
+
+
+/* state card btn */
+
+
+
+
+/* state cards */
+
+
+
+
+
+
+
+
+ 
+
+
+/* services-1 */
+
+.cards{
+
+    border-radius: 0.8rem;
+    color: #f2f3f7;
+    background-image: url(/Image/card/services/air.jpg);
+    background-size: cover;
+    width: 30rem;
+    height: 18rem;
+    padding: 05rem 0 0;
+    overflow: hidden;
+    transition: 500ms ease-in-out;
+    box-shadow: -2px  -2px 9px rgb(255, 255, 255),
+        2px 2px 9px rgb(92, 91, 91);
+    
+}
+
+.cards:hover{
+
+transform: scale(1.03);
+
+}
+
+.cards:hover .card-content{
+
+    transform: translateY(0%);
+    
+    }
+
+
+
+
+.card-content{
+padding: 1.3em;
+
+background: linear-gradient(rgba(242,243,247,0), 
+rgba(19,0,45,0.3) 20%,rgba(3,0,46,1));
+
+transform: translateY(89%);
+transition:  500ms ease-in-out;
+
+
+}
+
+.card-content h3{
+    color: #f2f3f7;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-content p{
+    color: #f2f3f7;
+    font-size: 20px;
+}
+
+.service-btn{
+    cursor: pointer;
+    display: inline-block;
+    color: #03002e;
+    background-color: #e6af2e;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    border: none;
+        text-decoration: none;
+        outline: none;
+        box-shadow: inset 2px  2px 3px rgb(246, 248, 115),
+         inset -2px -2px 3px rgb(109, 102, 1);
+}
+
+
+.service-btn:hover{
+    background-color: #f2f3f7;
+    text-decoration: none;
+    color: #03002e;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+         inset 2px 2px 3px rgb(92, 91, 91);
+         transition: 0.3s ease-in-out;
+         border: none;
+         outline: none;
+   
+}
+/* services-1 */
+
+/* services 2 */
+.cards-1{
+
+    border-radius: 0.8rem;
+    color: #f2f3f7;
+    background-image: url(/Image/card/services/hot.jpg);
+    background-size: cover;
+    width: 30rem;
+    height: 18rem;
+    padding: 05rem 0 0;
+    overflow: hidden;
+    transition: 500ms ease-in-out;
+    box-shadow: -2px  -2px 9px rgb(255, 255, 255),
+        2px 2px 9px rgb(92, 91, 91);
+
+    
+}
+
+.cards-1:hover{
+
+transform: scale(1.03);
+
+}
+
+.cards-1:hover .card-content{
+
+    transform: translateY(0%);
+    
+    }
+
+
+
+
+.card-content{
+padding: 1.3em;
+
+background: linear-gradient(rgba(242,243,247,0), 
+rgba(19,0,45,0.3) 20%,rgba(3,0,46,1));
+
+transform: translateY(89%);
+transition:  500ms ease-in-out;
+
+
+}
+
+.card-content h3{
+    color: #f2f3f7;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-content p{
+    color: #f2f3f7;
+    font-size: 20px;
+}
+
+.service-btn{
+    cursor: pointer;
+    display: inline-block;
+    color: #03002e;
+    background-color: #e6af2e;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    border: none;
+        text-decoration: none;
+        outline: none;
+        box-shadow: inset 2px  2px 3px rgb(246, 248, 115),
+         inset -2px -2px 3px rgb(109, 102, 1);
+}
+
+
+.service-btn:hover{
+    background-color: #f2f3f7;
+    text-decoration: none;
+    color: #03002e;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+         inset 2px 2px 3px rgb(92, 91, 91);
+         transition: 0.3s ease-in-out;
+         border: none;
+         outline: none;
+   
+}
+  /* services 2 */
+
+  /* service 3 */
+
+  .cards-2{
+
+    border-radius: 0.8rem;
+    color: #f2f3f7;
+    background-image: url(/Image/card/services/f.jpg);
+    background-size: cover;
+    width: 30rem;
+    height: 18rem;
+    padding: 05rem 0 0;
+    overflow: hidden;
+    transition: 500ms ease-in-out;
+    box-shadow: -2px  -2px 9px rgb(255, 255, 255),
+        2px 2px 9px rgb(92, 91, 91);
+}
+
+.cards-2:hover{
+
+transform: scale(1.03);
+
+}
+
+.cards-2:hover .card-content{
+
+    transform: translateY(0%);
+    
+    }
+
+
+
+
+.card-content{
+padding: 1.3em;
+
+background: linear-gradient(rgba(242,243,247,0), 
+rgba(19,0,45,0.3) 20%,rgba(3,0,46,1));
+
+transform: translateY(89%);
+transition:  500ms ease-in-out;
+
+
+}
+
+.card-content h3{
+    color: #f2f3f7;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-content p{
+    color: #f2f3f7;
+    font-size: 20px;
+}
+
+.service-btn{
+    cursor: pointer;
+    display: inline-block;
+    color: #03002e;
+    background-color: #e6af2e;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    border: none;
+        text-decoration: none;
+        outline: none;
+        box-shadow: inset 2px  2px 3px rgb(246, 248, 115),
+         inset -2px -2px 3px rgb(109, 102, 1);
+}
+
+
+.service-btn:hover{
+    background-color: #f2f3f7;
+    text-decoration: none;
+    color: #03002e;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+         inset 2px 2px 3px rgb(92, 91, 91);
+         transition: 0.3s ease-in-out;
+         border: none;
+         outline: none;
+   
+}
+
+  /* service 3 */
+
+  /* service 4 */
+
+  .cards-3{
+
+    border-radius: 0.8rem;
+    color: #f2f3f7;
+    background-image: url(/Image/card/thr/foot\ th.jpg);
+    background-size: cover;
+    width: 30rem;
+    height: 18rem;
+    padding: 05rem 0 0;
+    overflow: hidden;
+    transition: 500ms ease-in-out;
+    box-shadow: -2px  -2px 9px rgb(255, 255, 255),
+        2px 2px 9px rgb(92, 91, 91);
+    
+}
+
+.cards-3:hover{
+
+transform: scale(1.03);
+
+}
+
+.cards-3:hover .card-content{
+
+    transform: translateY(0%);
+    
+    }
+
+
+
+
+.card-content{
+padding: 1.3em;
+
+background: linear-gradient(rgba(242,243,247,0), 
+rgba(19,0,45,0.3) 20%,rgba(3,0,46,1));
+
+transform: translateY(89%);
+transition:  500ms ease-in-out;
+
+
+}
+
+.card-content h3{
+    color: #f2f3f7;
+    font-weight: bold;
+    text-align: left;
+}
+
+.card-content p{
+    color: #f2f3f7;
+    font-size: 20px;
+}
+
+.service-btn{
+    cursor: pointer;
+    display: inline-block;
+    color: #03002e;
+    background-color: #e6af2e;
+    padding: 2%;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    border: none;
+        text-decoration: none;
+        outline: none;
+        box-shadow: inset 2px  2px 3px rgb(246, 248, 115),
+         inset -2px -2px 3px rgb(109, 102, 1);
+}
+
+
+.service-btn:hover{
+    background-color: #f2f3f7;
+    text-decoration: none;
+    color: #03002e;
+    box-shadow: inset -2px  -2px 3px rgb(255, 255, 255),
+         inset 2px 2px 3px rgb(92, 91, 91);
+         transition: 0.3s ease-in-out;
+         border: none;
+         outline: none;
+   
+}
+
+  /* service 4 */
+  
+
+  
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+h5{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+
+/* footer */
+div.social-icon i{
+color: grey;
+transition: 0.5s;
+}
+
+div.social-icon i:hover{
+    color: #03002e;
+    transform: scale(1.29);
+    cursor: pointer;
+    }
+
+
+/* footer */
+div.copy{
+    text-align: center;
+}
+
+#f-icon{
+    color: grey;
+    transition: 0.3s linear;
+    
+}
+
+#f-icon:hover{
+    color: #03002e;
+    box-shadow:  inset -2px  -2px 6px rgb(112, 101, 2),
+   inset  2px 2px 6px rgb(255, 247, 133);
+}
+/* footer */
+
+@media (max-width:768px){
+    #state-card-container{
+        max-width: 100%;
+
+    }
